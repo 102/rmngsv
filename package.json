@@ -1,0 +1,28 @@
+{
+  "name": "rmngsv",
+  "version": "1.0.1",
+  "description": "A personal npm business card",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js",
+    "build": "node ./build.js",
+    "start": "npm run build && ./bin/rmngsv.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/102/rmngsv.git"
+  },
+  "author": "Roman Gusev <rgusev2@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/102/rmngsv/issues"
+  },
+  "homepage": "https://github.com/102/rmngsv#readme",
+  "devDependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^3.0.0"
+  },
+  "bin": {
+    "rmngsv": "./bin/rmngsv.js"
+  }
+}
